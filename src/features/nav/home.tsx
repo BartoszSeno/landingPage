@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-function Header() {
+function HomeNav() {
   return (
     <>
-      <div>h</div>
+      <div>Home</div>
     </>
   );
 }
 
-export default Header;
+export default HomeNav;

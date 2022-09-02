@@ -1,0 +1,48 @@
+@font-face {
+  font-family: BabasNeue;
+  src: url(../fonts/BebasNeue-Regular.otf);
+}
+
+.header-container {
+  display: flex;
+  height: 100px;
+  -webkit-box-shadow: inset 0px 100px 57px -70px rgba(0, 0, 0, 1);
+  -moz-box-shadow: inset 0px 100px 57px -70px rgba(0, 0, 0, 1);
+  box-shadow: inset 0px 100px 57px -70px rgba(0, 0, 0, 1);
+  font-family: BabasNeue;
+}
+
+.Header {
+  background-color: transparent;
+  display: flex;
+  width: 50%;
+  font-size: 30px;
+}
+
+.active {
+  font-weight: bold;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(181, 181, 181);
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  width: 40%;
+  margin-left: 5px;
+  padding: 20px 30px 20px 30px;
+  height: 22%;
+  font-weight: bolder;
+}
+
+a:hover {
+  color: gray;
+}
+
+.logo {
+  color: red !important;
+  font-weight: bolder;
+  font-size: 50px;
+}
