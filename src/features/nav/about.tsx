@@ -1,9 +1,14 @@
 import { useState } from "react";
 
 function AboutNav() {
+  setTimeout(() => {
+    const about = document.querySelector(".about") as HTMLElement;
+
+    about.style.display = "block";
+  }, 600);
   return (
     <>
-      <div>ABOUT</div>
+      <div className="about">ABOUT</div>
     </>
   );
 }

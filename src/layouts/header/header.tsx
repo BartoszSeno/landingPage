@@ -1,4 +1,5 @@
 import "../../assets/styles/header.css";
+import "../../assets/styles/animation.css";
 import { NavLink } from "react-router-dom";
 import LogoNav from "../../features/nav/logo";
 import HomeNav from "../../features/nav/home";
@@ -9,7 +10,7 @@ function Header() {
   return (
     <nav className="header-container">
       <div className="Header">
-        <NavLink to="/" className="logo">
+        <NavLink to="/">
           <LogoNav />
         </NavLink>
         <NavLink to="/" activeClassName="active">

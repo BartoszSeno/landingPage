@@ -1,9 +1,14 @@
 import { useState } from "react";
 
 function LogoNav() {
+  setTimeout(() => {
+    const logo = document.querySelector(".logo") as HTMLElement;
+
+    logo.style.display = "block";
+  }, 400);
   return (
     <>
-      <div>LOGO</div>
+      <div className="logo">LOGO</div>
     </>
   );
 }

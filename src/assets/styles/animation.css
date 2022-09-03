@@ -1,0 +1,82 @@
+.logo,
+.home,
+.about,
+.contact {
+  display: none;
+  animation: shownav 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes shownav {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.so,
+.st,
+.sth,
+.sf {
+  display: none;
+  animation: slidepage 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidepage {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.title,
+.title-main {
+  display: none;
+  animation: slidetitle 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidetitle {
+  0% {
+    margin-left: -50px;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.home-container {
+  display: none;
+  animation: homebg 3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes homebg {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+button {
+  display: none;
+  animation: buttonhome 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes buttonhome {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

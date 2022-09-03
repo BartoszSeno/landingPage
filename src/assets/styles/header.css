@@ -4,12 +4,14 @@
 }
 
 .header-container {
+  position: relative;
   display: flex;
   height: 100px;
   -webkit-box-shadow: inset 0px 100px 57px -70px rgba(0, 0, 0, 1);
   -moz-box-shadow: inset 0px 100px 57px -70px rgba(0, 0, 0, 1);
-  box-shadow: inset 0px 100px 57px -70px rgba(0, 0, 0, 1);
+  box-shadow: inset 0px 1s00px 57px -70px rgba(0, 0, 0, 1);
   font-family: BabasNeue;
+  z-index: 10000;
 }
 
 .Header {

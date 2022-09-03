@@ -1,9 +1,14 @@
 import { useState } from "react";
 
 function HomeNav() {
+  setTimeout(() => {
+    const home = document.querySelector(".home") as HTMLElement;
+
+    home.style.display = "block";
+  }, 500);
   return (
     <>
-      <div>Home</div>
+      <div className="home">Home</div>
     </>
   );
 }
