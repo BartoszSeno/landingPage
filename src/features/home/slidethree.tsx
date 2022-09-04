@@ -1,4 +1,4 @@
-function SlideThree() {
+function SlideThree({ AddClassThree }) {
   setTimeout(() => {
     const slide = document.querySelector(".sth") as HTMLElement;
 
@@ -6,7 +6,7 @@ function SlideThree() {
   }, 1100);
   return (
     <>
-      <div className="slide-page">
+      <div className="slide-page" onClick={AddClassThree}>
         <div className="sth">
           <div className="slide-page-img three"></div>
           <div className="slide-page-title">Sabrina Three</div>
