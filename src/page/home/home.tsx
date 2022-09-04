@@ -27,6 +27,7 @@ function Home() {
       test.style.display = "block";
       homeC.style.display = "none";
     }, 620);
+    ArrowVisable();
   };
   /* SLIDE TWO ZOOM ANIMATION*/
   const [addCT, setAddCT] = useState(false);
@@ -42,6 +43,7 @@ function Home() {
       test.style.display = "block";
       homeC.style.display = "none";
     }, 620);
+    ArrowVisable();
   };
 
   /* SLIDE THREE ZOOM ANIMATION*/
@@ -58,6 +60,7 @@ function Home() {
       test.style.display = "block";
       homeC.style.display = "none";
     }, 620);
+    ArrowVisable();
   };
 
   /* SLIDE FOUR ZOOM ANIMATION*/
@@ -74,6 +77,15 @@ function Home() {
       test.style.display = "block";
       homeC.style.display = "none";
     }, 620);
+    ArrowVisable();
+  };
+
+  const ArrowVisable = () => {
+    setTimeout(() => {
+      const arrow = document.querySelector(".arrow-container") as HTMLElement;
+
+      arrow.style.display = "flex";
+    }, 700);
   };
   return (
     <>

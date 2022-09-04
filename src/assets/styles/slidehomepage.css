@@ -3,7 +3,8 @@
 .slide-home-container-three,
 .slide-home-container-four {
   position: absolute;
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   margin-top: -100px;
   height: 100%;
   width: 100%;
