@@ -160,17 +160,66 @@ button {
   }
 }
 
-.hide {
-  animation: hides 1s;
+.slbone {
+  animation: slbone 1s;
   animation-iteration-count: 1;
   display: flex;
 }
 
-@keyframes hides {
+@keyframes slbone {
   0% {
-    opacity: 1;
+    margin-left: -400px;
+    opacity: 0;
   }
   100% {
+    opacity: 1;
+  }
+}
+
+.slbtwo {
+  animation: slbtwo 1s;
+  animation-iteration-count: 1;
+  display: flex;
+}
+
+@keyframes slbtwo {
+  0% {
+    margin-left: -400px;
     opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.slbthree {
+  animation: slbthree 1s;
+  animation-iteration-count: 1;
+  display: flex;
+}
+
+@keyframes slbthree {
+  0% {
+    margin-left: -400px;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.slbfour {
+  animation: slbfour 1s;
+  animation-iteration-count: 1;
+  display: flex;
+}
+
+@keyframes slbfour {
+  0% {
+    margin-left: -400px;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
