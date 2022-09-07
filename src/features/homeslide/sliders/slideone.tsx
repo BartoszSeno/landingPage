@@ -1,17 +1,12 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import DelayedLink from "../../delay/delay";
 
 function SlideOne() {
   return (
     <>
       <section className="slide-home-container">
         <div className="arrow-container">
-          <Link to="/Four">
-            <div className="left-arrow">«</div>
-          </Link>
-          <Link to="/Two">
-            <div className="right-arrow cc">»</div>
-          </Link>
+          <DelayedLink to="/Four" label="«"></DelayedLink>
+          <DelayedLink to="/Two" label="»"></DelayedLink>
         </div>
         <div className="bg-img">
           <img src="src/assets/img/1158838.jpg" className="slideimg" />

@@ -3,23 +3,22 @@ import SlideTwo from "./slidetwo";
 import SlideThree from "./slidethree";
 import SlideFour from "./slidefour";
 import { Link } from "react-router-dom";
+import DelayedLink from "../delay/delay";
 
 function SlideHome({ AddClass, AddClassTwo, AddClassThree, AddClassFour }) {
   return (
     <>
       <div className="episodes">Episodes</div>
-      <Link to="/One">
-        <SlideOne AddClass={AddClass} />
-      </Link>
-      <Link to="/Two">
-        <SlideTwo AddClassTwo={AddClassTwo} />
-      </Link>
-      <Link to="/Three">
-        <SlideThree AddClassThree={AddClassThree} />
-      </Link>
-      <Link to="/Four">
-        <SlideFour AddClassFour={AddClassFour} />
-      </Link>
+      <DelayedLink to="/One" label={<SlideOne AddClass={AddClass} />} />
+      <DelayedLink to="/Two" label={<SlideTwo AddClassTwo={AddClassTwo} />} />
+      <DelayedLink
+        to="/Three"
+        label={<SlideThree AddClassThree={AddClassThree} />}
+      />
+      <DelayedLink
+        to="/Four"
+        label={<SlideFour AddClassFour={AddClassFour} />}
+      />
     </>
   );
 }
