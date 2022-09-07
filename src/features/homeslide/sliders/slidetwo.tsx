@@ -1,71 +1,22 @@
-function SlideTwo({
-  SlideOneMoved,
-  setSlideTwoMoved,
-  SlideTwoMoved,
-  SlideTwoBack,
-  setSlideTwoBack,
-  SlideThreeBack,
-}) {
-  const SlideTwoMovedToSlideThree = () => {
-    if (SlideTwoMoved == false) {
-      setSlideTwoMoved(!SlideTwoMoved);
-    } else {
-      SlideTwoMoved;
-    }
+import { Link } from "react-router-dom";
 
-    setTimeout(() => {
-      const st = document.querySelector(
-        ".slide-home-container-two"
-      ) as HTMLElement;
-      const sth = document.querySelector(
-        ".slide-home-container-three"
-      ) as HTMLElement;
-
-      st.style.opacity = "0";
-      sth.style.opacity = "1";
-    }, 650);
-  };
-
-  const SlideTwoBackToSlideOne = () => {
-    if (SlideTwoBack == false) {
-      setSlideTwoBack(!SlideTwoBack);
-    } else {
-      SlideTwoBack;
-    }
-    setTimeout(() => {
-      const st = document.querySelector(
-        ".slide-home-container-two"
-      ) as HTMLElement;
-      const so = document.querySelector(".slide-home-container") as HTMLElement;
-
-      st.style.opacity = "0";
-      so.style.opacity = "1";
-    }, 650);
-  };
+function SlideTwo() {
   return (
     <>
-      <section
-        className={`slide-home-container-two ${SlideOneMoved ? "sltwo" : ""} ${
-          SlideThreeBack ? "slbtwo" : ""
-        }`}
-      >
+      <section className="slide-home-container-two">
         <div className="arrow-container">
-          <div
-            className="left-arrow"
-            onClick={(e) => {
-              SlideTwoBackToSlideOne();
-            }}
-          >
-            «
-          </div>
-          <div
-            className="right-arrow ss"
-            onClick={(e) => {
-              SlideTwoMovedToSlideThree();
-            }}
-          >
-            »
-          </div>
+          <Link to="/One">
+            <div className="left-arrow">«</div>
+          </Link>
+          <Link to="/Three">
+            <div className="right-arrow ss">»</div>
+          </Link>
+        </div>
+        <div className="bg-img">
+          <img
+            src="src/assets/img/chilling-adventures-of-sabrina-uhdpaper.com-4K-7.994.jpg"
+            className="slideimg"
+          />
         </div>
       </section>
     </>

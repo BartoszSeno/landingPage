@@ -111,6 +111,7 @@ function Home() {
           />
         </div>
       </main>
+      <SlideHomePage />
     </>
   );
 }

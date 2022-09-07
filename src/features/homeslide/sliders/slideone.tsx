@@ -1,73 +1,20 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
-function SlideOne({
-  setSlideOneMoved,
-  SlideOneMoved,
-  SlideFourMoved,
-  SlideOneBack,
-  setSlideOneBack,
-  SlideTwoBack,
-}) {
-  const SlideOneMovedToSlideTwo = () => {
-    if (SlideOneMoved == false) {
-      setSlideOneMoved(!SlideOneMoved);
-    } else {
-      SlideOneMoved;
-    }
-
-    setTimeout(() => {
-      const so = document.querySelector(".slide-home-container") as HTMLElement;
-      const st = document.querySelector(
-        ".slide-home-container-two"
-      ) as HTMLElement;
-
-      so.style.opacity = "0";
-      st.style.opacity = "1";
-    }, 650);
-
-    console.log("img1 to img2");
-  };
-
-  const SlideOneBackToSlideFour = () => {
-    if (SlideOneBack == false) {
-      setSlideOneBack(!SlideOneBack);
-    } else {
-      SlideOneBack;
-    }
-    setTimeout(() => {
-      const so = document.querySelector(".slide-home-container") as HTMLElement;
-      const sf = document.querySelector(
-        ".slide-home-container-four"
-      ) as HTMLElement;
-
-      so.style.opacity = "0";
-      sf.style.opacity = "1";
-    }, 650);
-  };
+function SlideOne() {
   return (
     <>
-      <section
-        className={`slide-home-container ${SlideFourMoved ? "slone" : ""} ${
-          SlideTwoBack ? "slbone" : ""
-        }`}
-      >
+      <section className="slide-home-container">
         <div className="arrow-container">
-          <div
-            className="left-arrow"
-            onClick={(e) => {
-              SlideOneBackToSlideFour();
-            }}
-          >
-            «
-          </div>
-          <div
-            className="right-arrow cc"
-            onClick={(e) => {
-              SlideOneMovedToSlideTwo();
-            }}
-          >
-            »
-          </div>
+          <Link to="/Four">
+            <div className="left-arrow">«</div>
+          </Link>
+          <Link to="/Two">
+            <div className="right-arrow cc">»</div>
+          </Link>
+        </div>
+        <div className="bg-img">
+          <img src="src/assets/img/1158838.jpg" className="slideimg" />
         </div>
       </section>
     </>

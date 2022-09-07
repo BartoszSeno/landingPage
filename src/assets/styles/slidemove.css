@@ -3,23 +3,22 @@
   z-index: 10000;
   font-size: 15vh;
   width: 100%;
-  height: 80%;
+  height: 90%;
+  margin-top: 50px;
   justify-content: space-between;
   align-items: center;
-  display: none;
   transform: 1s;
-}
-
-.scroll {
-  position: absolute;
-  height: 5px;
-  width: 20px;
-  background-color: white;
-  top: 0;
-  left: 0;
 }
 
 .left-arrow,
 .right-arrow {
   cursor: pointer;
+}
+
+.arrow-container a {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  height: 10px;
+  width: 100px;
 }
