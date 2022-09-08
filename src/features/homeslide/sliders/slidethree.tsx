@@ -1,13 +1,16 @@
-import { Link } from "react-router-dom";
-import DelayedLink from "../../delay/delay";
+import DelayedLink from "../../../hook/delay/delay";
 
 function SlideThree() {
   return (
     <>
       <section className="slide-home-container-three">
         <div className="arrow-container">
-          <DelayedLink to="/Two" label="«"></DelayedLink>
-          <DelayedLink to="/Four" label="»"></DelayedLink>
+          <div className="left-arrow">
+            <DelayedLink to="/Two" label="«"></DelayedLink>
+          </div>
+          <div className="right-arrow">
+            <DelayedLink to="/Four" label="»"></DelayedLink>
+          </div>
         </div>
         <div className="bg-img">
           <img

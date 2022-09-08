@@ -231,3 +231,20 @@ button {
     z-index: 1000;
   }
 }
+
+.onetotwo {
+  animation: onetotwo 5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes onetotwo {
+  0% {
+    scale: 0.8;
+    margin-top: -140px;
+  }
+  100% {
+    margin-left: -1800px;
+    scale: 0.8;
+    margin-top: -140px;
+  }
+}

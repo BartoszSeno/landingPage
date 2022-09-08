@@ -3,7 +3,7 @@ import SlideTwo from "./slidetwo";
 import SlideThree from "./slidethree";
 import SlideFour from "./slidefour";
 import { Link } from "react-router-dom";
-import DelayedLink from "../delay/delay";
+import DelayedLink from "../../hook/delay/delay";
 
 function SlideHome({ AddClass, AddClassTwo, AddClassThree, AddClassFour }) {
   return (

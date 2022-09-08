@@ -8,7 +8,6 @@ import SlideOne from "./features/homeslide/sliders/slideone";
 import SlideTwo from "./features/homeslide/sliders/slidetwo";
 import SlideThree from "./features/homeslide/sliders/slidethree";
 import SlideFour from "./features/homeslide/sliders/slidefour";
-import DelayedLink from "./features/delay/delay";
 
 function App() {
   return (

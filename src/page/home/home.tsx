@@ -18,32 +18,12 @@ function Home() {
 
   const AddClass = () => {
     setAddC(!addC);
-    setTimeout(() => {
-      const homeC = document.querySelector(".home-container") as HTMLElement;
-      const test = document.querySelector(
-        ".slide-home-container"
-      ) as HTMLElement;
-
-      test.style.display = "block";
-      homeC.style.display = "none";
-    }, 620);
-    ArrowVisable();
   };
   /* SLIDE TWO ZOOM ANIMATION*/
   const [addCT, setAddCT] = useState(false);
 
   const AddClassTwo = () => {
     setAddCT(!addCT);
-    setTimeout(() => {
-      const homeC = document.querySelector(".home-container") as HTMLElement;
-      const test = document.querySelector(
-        ".slide-home-container-two"
-      ) as HTMLElement;
-
-      test.style.display = "block";
-      homeC.style.display = "none";
-    }, 620);
-    ArrowVisable();
   };
 
   /* SLIDE THREE ZOOM ANIMATION*/
@@ -51,16 +31,6 @@ function Home() {
 
   const AddClassThree = () => {
     setAddCTH(!addCTH);
-    setTimeout(() => {
-      const homeC = document.querySelector(".home-container") as HTMLElement;
-      const test = document.querySelector(
-        ".slide-home-container-three"
-      ) as HTMLElement;
-
-      test.style.display = "block";
-      homeC.style.display = "none";
-    }, 620);
-    ArrowVisable();
   };
 
   /* SLIDE FOUR ZOOM ANIMATION*/
@@ -68,25 +38,8 @@ function Home() {
 
   const AddClassFour = () => {
     setAddCF(!addCF);
-    setTimeout(() => {
-      const homeC = document.querySelector(".home-container") as HTMLElement;
-      const test = document.querySelector(
-        ".slide-home-container-four"
-      ) as HTMLElement;
-
-      test.style.display = "block";
-      homeC.style.display = "none";
-    }, 620);
-    ArrowVisable();
   };
 
-  const ArrowVisable = () => {
-    setTimeout(() => {
-      const arrow = document.querySelector(".arrow-container") as HTMLElement;
-
-      arrow.style.display = "flex";
-    }, 700);
-  };
   return (
     <>
       <main

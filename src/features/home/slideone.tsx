@@ -1,5 +1,3 @@
-import { useEffect, useState } from "react";
-
 function SlideOne({ AddClass }) {
   setTimeout(() => {
     const slide = document.querySelector(".so") as HTMLElement;

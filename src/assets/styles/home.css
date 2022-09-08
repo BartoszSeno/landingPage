@@ -131,30 +131,30 @@ button:hover {
 }
 
 .slide-one-zoom {
-  transform: scale(6.7);
-  margin-left: 225%;
-  margin-top: -104%;
+  scale: 5.8;
+  margin-left: 180%;
+  margin-top: -95%;
   transition: 1s;
 }
 
 .slide-two-zoom {
-  transform: scale(6.7);
-  margin-left: 75%;
-  margin-top: -104%;
+  scale: 5.8;
+  margin-left: 50%;
+  margin-top: -95%;
   transition: 1s;
 }
 
 .slide-three-zoom {
-  transform: scale(6.7);
-  margin-left: -77%;
-  margin-top: -104%;
+  scale: 5.8;
+  margin-left: -80%;
+  margin-top: -95%;
   transition: 1s;
 }
 
 .slide-four-zoom {
-  transform: scale(6.4);
-  margin-left: -217%;
-  margin-top: -100%;
+  scale: 5.8;
+  margin-left: -210%;
+  margin-top: -95%;
   transition: 1s;
 }
 
