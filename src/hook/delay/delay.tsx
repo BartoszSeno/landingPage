@@ -4,7 +4,7 @@ class DelayedLink extends Component {
   declare props: any;
 
   state = {
-    delay: 2000,
+    delay: 1430,
     t: false,
   };
 

@@ -2,8 +2,8 @@ import SlideOne from "./slideone";
 import SlideTwo from "./slidetwo";
 import SlideThree from "./slidethree";
 import SlideFour from "./slidefour";
-import { Link } from "react-router-dom";
 import DelayedLink from "../../hook/delay/delay";
+import "../../assets/styles/animation.css";
 
 function SlideHome({ AddClass, AddClassTwo, AddClassThree, AddClassFour }) {
   return (

@@ -43,7 +43,7 @@
 
 @keyframes slidetitle {
   0% {
-    margin-left: -50px;
+    translate: -50px 0px;
     opacity: 0;
   }
   100% {
@@ -233,18 +233,66 @@ button {
 }
 
 .onetotwo {
-  animation: onetotwo 5s;
+  animation: onetotwo 1.5s;
   animation-iteration-count: 1;
+  translate: 0px -40px;
+  scale: 0.8;
 }
 
 @keyframes onetotwo {
   0% {
+    scale: 1;
+  }
+  30% {
     scale: 0.8;
-    margin-top: -140px;
+  }
+  80% {
+    translate: -1800px -40px;
   }
   100% {
-    margin-left: -1800px;
+    translate: -1800px -40px;
+  }
+}
+
+.slide-efect {
+  animation: onetotwoT 1.5s;
+  animation-iteration-count: 1;
+  height: 1080px;
+}
+
+@keyframes onetotwoT {
+  0% {
     scale: 0.8;
-    margin-top: -140px;
+    translate: 1800px -50px;
+  }
+  80% {
+    scale: 0.8;
+    translate: 0px -50px;
+  }
+  100% {
+  }
+}
+
+.twotothree,
+.threetofour,
+.fourtoone {
+  animation: twotothree 1.5s;
+  animation-iteration-count: 1;
+  translate: 0px -40px;
+  scale: 0.8;
+}
+
+@keyframes twotothree {
+  0% {
+    scale: 1;
+  }
+  30% {
+    scale: 0.8;
+  }
+  80% {
+    translate: -1800px -40px;
+  }
+  100% {
+    translate: -1800px -40px;
   }
 }

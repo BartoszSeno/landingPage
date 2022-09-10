@@ -23,3 +23,18 @@
   display: flex;
   align-items: center;
 }
+
+.slide-home-container {
+  z-index: 100;
+}
+.slide-home-container-two {
+  z-index: 99;
+}
+
+.slide-home-container-three {
+  z-index: 98;
+}
+
+.slide-home-container-four {
+  z-index: 97;
+}

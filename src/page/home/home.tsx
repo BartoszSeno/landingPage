@@ -1,5 +1,7 @@
 import "../../assets/styles/home.css";
 import "../../assets/styles/slidehomepage.css";
+import "../../assets/styles/slidemove.css";
+import "../../assets/styles/animation.css";
 import SlideHome from "../../features/home/slide";
 import SlideTitle from "../../features/home/slidetitle";
 import ButtonHome from "../../features/home/button";

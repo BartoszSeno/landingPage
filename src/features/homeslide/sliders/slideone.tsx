@@ -2,22 +2,36 @@ import { useState } from "react";
 import DelayedLink from "../../../hook/delay/delay";
 import SlideTwo from "./slidetwo";
 
-function SlideOne(this: any) {
+function SlideOne() {
   const [SwapOneToTwo, setSwapOneToTwo] = useState(false);
 
   const OneToTwo = (e: { preventDefault: () => void }) => {
     e.preventDefault();
     setSwapOneToTwo(!SwapOneToTwo);
-    console.log("test");
+    const ta = document.querySelector(".ta") as HTMLElement;
+
+    ta.style.display = " none";
+
+    const ths = document.querySelector(
+      ".slide-home-container-three"
+    ) as HTMLElement;
+
+    ths.style.display = "none";
+    const fs = document.querySelector(
+      ".slide-home-container-four"
+    ) as HTMLElement;
+
+    fs.style.display = "none";
   };
 
   return (
     <>
       <section
-        className={`slide-home-container ${SwapOneToTwo ? "onetotwo" : ""}`}
+        className={`slide-home-container ${SwapOneToTwo ? "onetotwo" : ""}
+        `}
       >
-        <div className="arrow-container">
-          <div className="left-arrow" onClick={OneToTwo}>
+        <div className="arrow-container oa">
+          <div className="left-arrow">
             <DelayedLink to="/Four" label="«"></DelayedLink>
           </div>
           <div className="right-arrow" onClick={OneToTwo}>
@@ -28,6 +42,7 @@ function SlideOne(this: any) {
           <img src="src/assets/img/1158838.jpg" className="slideimg" />
         </div>
       </section>
+      <SlideTwo SwapOneToTwo={SwapOneToTwo} />
     </>
   );
 }
