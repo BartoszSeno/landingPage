@@ -2,33 +2,20 @@ import { useState } from "react";
 import DelayedLink from "../../../hook/delay/delay";
 import SlideOne from "./slideone";
 
-function SlideFour({ SwapThreeToFour }) {
+function SlideFour() {
   const [SwapFourToOne, setSwapFourToOne] = useState(false);
 
   const FourToOne = (e: { preventDefault: () => void }) => {
     e.preventDefault();
     setSwapFourToOne(!SwapFourToOne);
-    const oa = document.querySelector(".oa") as HTMLElement;
-
-    oa.style.display = " none";
-
-    const os = document.querySelector(".slide-home-container") as HTMLElement;
-
-    os.style.display = "none";
-
-    setTimeout(() => {
-      console.log("dziala");
-
-      os.style.display = "flex";
-    }, 0);
   };
 
   return (
     <>
       <section
         className={`slide-home-container-four ${
-          SwapThreeToFour ? "slide-efect" : ""
-        } ${SwapFourToOne ? "fourtoone" : ""}`}
+          SwapFourToOne ? "main-slide-efect" : ""
+        }`}
       >
         <div className="arrow-container fa">
           <div className="left-arrow">
@@ -45,6 +32,9 @@ function SlideFour({ SwapThreeToFour }) {
           />
         </div>
       </section>
+      <div className={`page-imitation ${SwapFourToOne ? "slide-efect" : ""}`}>
+        <img src="src\assets\img\1158838.jpg" alt="one page imitation" />
+      </div>
     </>
   );
 }

@@ -232,28 +232,6 @@ button {
   }
 }
 
-.onetotwo {
-  animation: onetotwo 1.5s;
-  animation-iteration-count: 1;
-  translate: 0px -40px;
-  scale: 0.8;
-}
-
-@keyframes onetotwo {
-  0% {
-    scale: 1;
-  }
-  30% {
-    scale: 0.8;
-  }
-  80% {
-    translate: -1800px -40px;
-  }
-  100% {
-    translate: -1800px -40px;
-  }
-}
-
 .slide-efect {
   animation: onetotwoT 1.5s;
   animation-iteration-count: 1;
@@ -273,9 +251,7 @@ button {
   }
 }
 
-.twotothree,
-.threetofour,
-.fourtoone {
+.main-slide-efect {
   animation: twotothree 1.5s;
   animation-iteration-count: 1;
   translate: 0px -40px;

@@ -8,26 +8,14 @@ function SlideOne() {
   const OneToTwo = (e: { preventDefault: () => void }) => {
     e.preventDefault();
     setSwapOneToTwo(!SwapOneToTwo);
-    const ta = document.querySelector(".ta") as HTMLElement;
-
-    ta.style.display = " none";
-
-    const ths = document.querySelector(
-      ".slide-home-container-three"
-    ) as HTMLElement;
-
-    ths.style.display = "none";
-    const fs = document.querySelector(
-      ".slide-home-container-four"
-    ) as HTMLElement;
-
-    fs.style.display = "none";
   };
 
   return (
     <>
       <section
-        className={`slide-home-container ${SwapOneToTwo ? "onetotwo" : ""}
+        className={`slide-home-container ${
+          SwapOneToTwo ? "main-slide-efect" : ""
+        }
         `}
       >
         <div className="arrow-container oa">
@@ -42,7 +30,12 @@ function SlideOne() {
           <img src="src/assets/img/1158838.jpg" className="slideimg" />
         </div>
       </section>
-      <SlideTwo SwapOneToTwo={SwapOneToTwo} />
+      <div className={`page-imitation ${SwapOneToTwo ? "slide-efect" : ""}`}>
+        <img
+          src="src\assets\img\chilling-adventures-of-sabrina-uhdpaper.com-4K-7.994.jpg"
+          alt="two page imitation"
+        />
+      </div>
     </>
   );
 }

@@ -2,36 +2,20 @@ import { useState } from "react";
 import DelayedLink from "../../../hook/delay/delay";
 import SlideThree from "./slidethree";
 
-function SlideTwo({ SwapOneToTwo }) {
+function SlideTwo() {
   const [SwapTwoToThree, setSwapTwoToThree] = useState(false);
 
   const TwoToThree = (e: { preventDefault: () => void }) => {
     e.preventDefault();
     setSwapTwoToThree(!SwapTwoToThree);
-    const ta = document.querySelector(".tha") as HTMLElement;
-
-    ta.style.display = " none";
-
-    const fs = document.querySelector(
-      ".slide-home-container-four"
-    ) as HTMLElement;
-
-    fs.style.display = "none";
-    setTimeout(() => {
-      console.log("dziala");
-      const test = document.querySelector(
-        ".slide-home-container-three"
-      ) as HTMLElement;
-
-      test.style.display = "flex";
-    }, 0);
   };
+
   return (
     <>
       <section
         className={`slide-home-container-two ${
           SwapOneToTwo ? "slide-efect" : ""
-        } ${SwapTwoToThree ? "twotothree" : ""}`}
+        } ${SwapTwoToThree ? "main-slide-efect" : ""}`}
       >
         <div className="arrow-container ta">
           <div className="left-arrow">
@@ -48,7 +32,12 @@ function SlideTwo({ SwapOneToTwo }) {
           />
         </div>
       </section>
-      <SlideThree SwapTwoToThree={SwapTwoToThree} />
+      <div className={`page-imitation ${SwapTwoToThree ? "slide-efect" : ""}`}>
+        <img
+          src="src\assets\img\wallpapersden.com_chilling-adventures-of-sabrina-4k_4000x2250.jpg"
+          alt="three page imitation"
+        />
+      </div>
     </>
   );
 }

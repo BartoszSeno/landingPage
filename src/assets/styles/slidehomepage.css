@@ -6,6 +6,7 @@
   margin-top: -100px;
   height: 100%;
   width: 100%;
+  z-index: 101;
 }
 
 .right-arrow {
@@ -24,17 +25,10 @@
   align-items: center;
 }
 
-.slide-home-container {
+.page-imitation img {
+  position: absolute;
+  margin-top: -100px;
+  height: 100%;
+  width: 100%;
   z-index: 100;
-}
-.slide-home-container-two {
-  z-index: 99;
-}
-
-.slide-home-container-three {
-  z-index: 98;
-}
-
-.slide-home-container-four {
-  z-index: 97;
 }
