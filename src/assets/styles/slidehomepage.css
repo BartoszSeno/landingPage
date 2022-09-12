@@ -32,3 +32,10 @@
   width: 100%;
   z-index: 100;
 }
+
+.one-imitation,
+.two-imitation,
+.three-imitation,
+.four-imitation {
+  display: none;
+}

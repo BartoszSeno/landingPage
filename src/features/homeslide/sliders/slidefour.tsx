@@ -3,25 +3,39 @@ import DelayedLink from "../../../hook/delay/delay";
 import SlideOne from "./slideone";
 
 function SlideFour() {
-  const [SwapFourToOne, setSwapFourToOne] = useState(false);
+  const [SlideRight, setSlideRight] = useState(false);
 
-  const FourToOne = (e: { preventDefault: () => void }) => {
+  const HandleSlideRight = (e: { preventDefault: () => void }) => {
     e.preventDefault();
-    setSwapFourToOne(!SwapFourToOne);
+    setSlideRight(!SlideRight);
+    const one = document.querySelector(".one-imitation") as HTMLElement;
+
+    one.style.display = "flex";
+  };
+
+  const [SlideLeft, setSlideLeft] = useState(false);
+
+  const HandleSlideLeft = (e: { preventDefault: () => void }) => {
+    e.preventDefault();
+    setSlideLeft(!SlideLeft);
+
+    const three = document.querySelector(".three-imitation") as HTMLElement;
+
+    three.style.display = "flex";
   };
 
   return (
     <>
       <section
         className={`slide-home-container-four ${
-          SwapFourToOne ? "main-slide-efect" : ""
-        }`}
+          SlideRight ? "main-slide-efect" : ""
+        } ${SlideLeft ? "main-slide-efect-left" : ""}`}
       >
         <div className="arrow-container fa">
-          <div className="left-arrow">
+          <div className="left-arrow" onClick={HandleSlideLeft}>
             <DelayedLink to="/Three" label="«"></DelayedLink>
           </div>
-          <div className="right-arrow" onClick={FourToOne}>
+          <div className="right-arrow" onClick={HandleSlideRight}>
             <DelayedLink to="/One" label="»"></DelayedLink>
           </div>
         </div>
@@ -32,8 +46,21 @@ function SlideFour() {
           />
         </div>
       </section>
-      <div className={`page-imitation ${SwapFourToOne ? "slide-efect" : ""}`}>
-        <img src="src\assets\img\1158838.jpg" alt="one page imitation" />
+      <div
+        className={`page-imitation ${SlideRight ? "slide-efect" : ""} ${
+          SlideLeft ? "slide-efect-left" : ""
+        }`}
+      >
+        <img
+          className="one-imitation"
+          src="src\assets\img\1158838.jpg"
+          alt="one page imitation"
+        />
+        <img
+          className="three-imitation"
+          src="src\assets\img\wallpapersden.com_chilling-adventures-of-sabrina-4k_4000x2250.jpg"
+          alt="three page imitation"
+        />
       </div>
     </>
   );

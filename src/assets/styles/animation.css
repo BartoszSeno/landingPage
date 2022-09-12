@@ -272,3 +272,44 @@ button {
     translate: -1800px -40px;
   }
 }
+
+.slide-efect-left {
+  animation: slefl 1.5s;
+  animation-iteration-count: 1;
+  height: 1080px;
+}
+
+@keyframes slefl {
+  0% {
+    scale: 0.8;
+    translate: -1800px -50px;
+  }
+  80% {
+    scale: 0.8;
+    translate: 0px -50px;
+  }
+  100% {
+  }
+}
+
+.main-slide-efect-left {
+  animation: mslel 1.5s;
+  animation-iteration-count: 1;
+  translate: 0px -40px;
+  scale: 0.8;
+}
+
+@keyframes mslel {
+  0% {
+    scale: 1;
+  }
+  30% {
+    scale: 0.8;
+  }
+  80% {
+    translate: 1800px -40px;
+  }
+  100% {
+    translate: 1800px -40px;
+  }
+}
