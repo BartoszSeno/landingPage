@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 function HomeNav() {
   setTimeout(() => {
     const home = document.querySelector(".home") as HTMLElement;

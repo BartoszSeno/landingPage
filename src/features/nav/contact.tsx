@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 function ContactNav() {
   setTimeout(() => {
     const contact = document.querySelector(".contact") as HTMLElement;

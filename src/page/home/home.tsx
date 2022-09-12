@@ -5,7 +5,7 @@ import "../../assets/styles/animation.css";
 import SlideHome from "../../features/home/slide";
 import SlideTitle from "../../features/home/slidetitle";
 import ButtonHome from "../../features/home/button";
-import SlideHomePage from "../slidehome/slidehome";
+import SlideHomePage from "../../slidehome/slidehome";
 import { useState } from "react";
 
 function Home() {
@@ -66,7 +66,6 @@ function Home() {
           />
         </div>
       </main>
-      <SlideHomePage />
     </>
   );
 }
