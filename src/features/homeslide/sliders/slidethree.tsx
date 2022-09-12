@@ -1,6 +1,6 @@
 import { useState } from "react";
 import DelayedLink from "../../../hook/delay/delay";
-import SlideFour from "./slidefour";
+import SlideThreePage from "../../slidepege/slidethreepage";
 
 function SlideThree() {
   const [SlideRight, setSlideRight] = useState(false);

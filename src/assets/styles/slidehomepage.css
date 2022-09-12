@@ -10,7 +10,6 @@
 }
 
 .right-arrow {
-  background-color: red;
   height: 50px;
   padding-bottom: 35px;
   display: flex;
@@ -18,7 +17,6 @@
 }
 
 .left-arrow {
-  background-color: aqua;
   height: 50px;
   padding-bottom: 35px;
   display: flex;

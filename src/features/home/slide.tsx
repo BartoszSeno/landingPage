@@ -4,6 +4,7 @@ import SlideThree from "./slidethree";
 import SlideFour from "./slidefour";
 import DelayedLink from "../../hook/delay/delay";
 import "../../assets/styles/animation.css";
+import "../../assets/styles/slidepege.css";
 
 function SlideHome({ AddClass, AddClassTwo, AddClassThree, AddClassFour }) {
   return (

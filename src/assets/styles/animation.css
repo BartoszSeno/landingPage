@@ -313,3 +313,54 @@ button {
     translate: 1800px -40px;
   }
 }
+
+.box-1-r,
+.box-2-r,
+.box-3-r {
+  animation: boxranimation 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes boxranimation {
+  0% {
+    translate: 0px 200px;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.title-l {
+  animation: tt 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes tt {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.text-l {
+  animation: txt 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes txt {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

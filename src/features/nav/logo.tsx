@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 function LogoNav() {
   setTimeout(() => {
     const logo = document.querySelector(".logo") as HTMLElement;

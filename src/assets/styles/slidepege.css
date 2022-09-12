@@ -1,0 +1,81 @@
+.slide-page-container {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: flex-end;
+}
+
+.bottom-c {
+  display: flex;
+  height: auto;
+  height: 50%;
+  width: 100%;
+}
+
+.left-c {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5vh;
+}
+
+.right-c {
+  width: 70%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.box-1-r,
+.box-2-r,
+.box-3-r {
+  width: 82%;
+  height: 100%;
+  border: 0.5vh solid white;
+  border-top-left-radius: 3vh;
+  border-top-right-radius: 3vh;
+  margin-left: 2vh;
+  border-bottom: none;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-l {
+  font-size: 10vh;
+  height: 10%;
+  width: 80%;
+  margin-bottom: 2vh;
+}
+
+.text-l {
+  font-size: 3.5vh;
+  height: 50%;
+  width: 80%;
+  line-height: 3.5vh;
+}
+
+.right-c img {
+  width: 13vh;
+}
+
+.some-text {
+  text-align: center;
+  font-size: 2vh;
+  font-weight: 900;
+  margin-top: 2vh;
+  line-height: 2vh;
+}
+
+.vs {
+  height: 80%;
+  width: 30%;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
