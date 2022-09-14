@@ -1,5 +1,6 @@
 import { useState } from "react";
 import DelayedLink from "../../../hook/delay/delay";
+import SlideThreePage from "../../slidepege/slidethreepage";
 
 function SlideThree() {
   const [SlideRight, setSlideRight] = useState(false);
@@ -39,6 +40,7 @@ function SlideThree() {
             <DelayedLink to="/Four" label="»"></DelayedLink>
           </div>
         </div>
+        <SlideThreePage />
         <div className="bg-img">
           <img
             src="src/assets/img/wallpapersden.com_chilling-adventures-of-sabrina-4k_4000x2250.jpg"

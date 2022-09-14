@@ -1,5 +1,6 @@
 import { useState } from "react";
 import DelayedLink from "../../../hook/delay/delay";
+import SlideOnePage from "../../slidepege/slideonepage";
 
 function SlideOne() {
   const [SlideRight, setSlideRight] = useState(false);
@@ -40,6 +41,7 @@ function SlideOne() {
             <DelayedLink to="/Two" label="»" />
           </div>
         </div>
+        <SlideOnePage />
         <div className="bg-img">
           <img src="src/assets/img/1158838.jpg" className="slideimg" />
         </div>

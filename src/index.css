@@ -13,10 +13,16 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  font-family: BabasNeue;
 }
 
 body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+}
+
+@font-face {
+  font-family: BabasNeue;
+  src: url(../fonts/BebasNeue-Regular.otf);
 }
