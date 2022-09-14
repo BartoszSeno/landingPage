@@ -43,7 +43,7 @@ function SlideOne() {
         </div>
         <SlideOnePage />
         <div className="bg-img">
-          <img src="src/assets/img/1158838.jpg" className="slideimg" />
+          <img src="src/assets/img/m1.png" className="slideimg" />
         </div>
       </section>
       <div
@@ -53,12 +53,12 @@ function SlideOne() {
       >
         <img
           className="two-imitation"
-          src="src\assets\img\chilling-adventures-of-sabrina-uhdpaper.com-4K-7.994.jpg"
+          src="src\assets\img\m2.png"
           alt="two page imitation"
         />
         <img
           className="four-imitation"
-          src="src\assets\img\wallpapersden.com_the-chilling-adventures-of-sabrina-season-2_1920x1080.jpg"
+          src="src\assets\img\m4.png"
           alt="four page imitation"
         />
       </div>

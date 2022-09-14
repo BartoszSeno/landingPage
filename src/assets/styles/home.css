@@ -1,17 +1,21 @@
-@font-face {
-  font-family: BabasNeue;
-  src: url(../fonts/BebasNeue-Regular.otf);
-}
-
 .home-container {
-  font-family: BabasNeue;
+  background-color: #99acff;
+  background-image: radial-gradient(
+      at 18% 4%,
+      hsla(199, 100%, 47%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 58% 64%, hsla(188, 100%, 47%, 1) 0px, transparent 50%),
+    radial-gradient(at 18% 81%, hsla(112, 100%, 47%, 1) 0px, transparent 50%),
+    radial-gradient(at 75% 22%, hsla(214, 100%, 47%, 1) 0px, transparent 50%),
+    radial-gradient(at 77% 14%, hsla(336, 100%, 47%, 1) 0px, transparent 50%),
+    radial-gradient(at 23% 26%, hsla(232, 100%, 47%, 1) 0px, transparent 50%),
+    radial-gradient(at 2% 78%, hsla(179, 100%, 47%, 1) 0px, transparent 50%);
+  background-size: 400% 400%;
   z-index: 10;
   display: flex;
   justify-content: center;
   position: absolute;
-  background-image: url("../img/thumb-1920-1091224.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   margin-top: -100px;
   width: 100%;
   height: 100%;

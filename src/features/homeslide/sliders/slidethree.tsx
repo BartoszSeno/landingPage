@@ -42,10 +42,7 @@ function SlideThree() {
         </div>
         <SlideThreePage />
         <div className="bg-img">
-          <img
-            src="src/assets/img/wallpapersden.com_chilling-adventures-of-sabrina-4k_4000x2250.jpg"
-            className="slideimg"
-          />
+          <img src="src/assets/img/m3.png" className="slideimg" />
         </div>
       </section>
       <div
@@ -55,12 +52,12 @@ function SlideThree() {
       >
         <img
           className="fout-imitation"
-          src="src\assets\img\wallpapersden.com_the-chilling-adventures-of-sabrina-season-2_1920x1080.jpg"
+          src="src\assets\img\m4.png"
           alt="four page imitation"
         />
         <img
           className="two-imitation"
-          src="src\assets\img\chilling-adventures-of-sabrina-uhdpaper.com-4K-7.994.jpg"
+          src="src\assets\img\m2.png"
           alt="three page imitation"
         />
       </div>

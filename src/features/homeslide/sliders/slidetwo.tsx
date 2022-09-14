@@ -42,10 +42,7 @@ function SlideTwo() {
         </div>
         <SlideTwoPage />
         <div className="bg-img">
-          <img
-            src="src/assets/img/chilling-adventures-of-sabrina-uhdpaper.com-4K-7.994.jpg"
-            className="slideimg"
-          />
+          <img src="src/assets/img/m2.png" className="slideimg" />
         </div>
       </section>
       <div
@@ -55,12 +52,12 @@ function SlideTwo() {
       >
         <img
           className="three-imitation"
-          src="src\assets\img\wallpapersden.com_chilling-adventures-of-sabrina-4k_4000x2250.jpg"
+          src="src\assets\img\m3.png"
           alt="three page imitation"
         />
         <img
           className="one-imitation"
-          src="src\assets\img\1158838.jpg"
+          src="src\assets\img\m1.png"
           alt="one page imitation"
         />
       </div>

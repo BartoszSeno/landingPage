@@ -9,10 +9,7 @@ function SlideFour({ AddClassFour }) {
       <div className="slide-page" onClick={AddClassFour}>
         <div className="sf">
           <div className="slide-page-img">
-            <img
-              src="src\assets\img\wallpapersden.com_the-chilling-adventures-of-sabrina-season-2_1920x1080.jpg"
-              alt=""
-            />
+            <img src="src\assets\img\m4.png" alt="" />
           </div>
           <div className="slide-page-title">Sabrina Four</div>
         </div>

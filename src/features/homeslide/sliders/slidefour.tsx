@@ -41,10 +41,7 @@ function SlideFour() {
         </div>
         <SlideFourPage />
         <div className="bg-img">
-          <img
-            src="src\assets\img\wallpapersden.com_the-chilling-adventures-of-sabrina-season-2_1920x1080.jpg"
-            className="slideimg"
-          />
+          <img src="src\assets\img\m4.png" className="slideimg" />
         </div>
       </section>
       <div
@@ -54,12 +51,12 @@ function SlideFour() {
       >
         <img
           className="one-imitation"
-          src="src\assets\img\1158838.jpg"
+          src="src\assets\img\m1.png"
           alt="one page imitation"
         />
         <img
           className="three-imitation"
-          src="src\assets\img\wallpapersden.com_chilling-adventures-of-sabrina-4k_4000x2250.jpg"
+          src="src\assets\img\m3.png"
           alt="three page imitation"
         />
       </div>

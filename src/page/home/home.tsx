@@ -4,8 +4,6 @@ import "../../assets/styles/slidemove.css";
 import "../../assets/styles/animation.css";
 import SlideHome from "../../features/home/slide";
 import SlideTitle from "../../features/home/slidetitle";
-import ButtonHome from "../../features/home/button";
-import SlideHomePage from "../../slidehome/slidehome";
 import { useState } from "react";
 
 function Home() {
@@ -54,9 +52,7 @@ function Home() {
         <div className="title-container">
           <SlideTitle />
         </div>
-        <div className="button-container">
-          <ButtonHome />
-        </div>
+
         <div className="slide-container">
           <SlideHome
             AddClass={AddClass}

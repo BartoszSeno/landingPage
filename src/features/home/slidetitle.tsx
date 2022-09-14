@@ -11,8 +11,8 @@ function SlideTitle() {
   }, 800);
   return (
     <>
-      <div className="title">CHILLING ADVENTURES OF</div>
-      <div className="title-main">SABRINA</div>
+      <div className="title">interesting facts about</div>
+      <div className="title-main">mountain</div>
     </>
   );
 }
