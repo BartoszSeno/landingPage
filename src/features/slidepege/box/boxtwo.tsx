@@ -9,9 +9,8 @@ function BoxTwo() {
     <>
       <div className="vs">
         <div className="box-2-r">
-          <img src="src\assets\img\2626163.jpg" alt="" />
           <div className="some-text">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            12% of the World’s People Live in the Mountains
           </div>
         </div>
       </div>

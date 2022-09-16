@@ -20,6 +20,7 @@
   align-items: center;
   justify-content: center;
   padding-left: 5vh;
+  margin-top: -30vh;
 }
 
 .right-c {
@@ -48,8 +49,9 @@
 .title-l {
   font-size: 10vh;
   height: 10%;
-  width: 80%;
-  margin-bottom: 2vh;
+  width: 100%;
+  margin-bottom: 20vh;
+  line-height: 8vh;
 }
 
 .text-l {
@@ -68,6 +70,7 @@
   font-size: 2vh;
   font-weight: 900;
   margin-top: 2vh;
+  width: 90%;
   line-height: 2vh;
 }
 
@@ -99,7 +102,7 @@
 }
 
 .content-box {
-  height: 60%;
+  height: 90%;
   width: 70%;
   display: flex;
   flex-direction: column;
@@ -110,6 +113,7 @@
   font-size: 10vh;
   font-weight: bold;
   margin-top: 5vh;
+  line-height: 8vh;
 }
 
 .text-th {
@@ -194,10 +198,11 @@
   font-size: 10vh;
   font-weight: bold;
   margin-top: 5vh;
+  line-height: 8vh;
 }
 
 .text-o {
-  margin-top: 4vh;
+  margin-top: 1vh;
   font-size: 4vh;
   line-height: 4vh;
 }

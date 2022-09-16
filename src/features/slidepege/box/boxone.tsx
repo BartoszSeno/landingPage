@@ -9,9 +9,13 @@ function BoxOne() {
     <>
       <div className="vs">
         <div className="box-1-r">
-          <img src="src\assets\img\2626163.jpg" alt="" />
           <div className="some-text">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            New Zealand Features the World’s Longest Mountain Name
+            <br />
+            <br />
+            "Taumatawhakatangihangakoau
+            <br />
+            auotamateapokaiwhenuakitanatahu"
           </div>
         </div>
       </div>

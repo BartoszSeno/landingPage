@@ -8,13 +8,19 @@ function SlideTwoPage() {
       <div className="slide-page-container">
         <div className="bottom-c">
           <div className="left-c">
-            <div className="title-l">Lorem</div>
-            <div className="text-l">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
-              sint nemo similique nobis cupiditate ut. Quod itaque architecto
-              porro est consequuntur, accusantium numquam ducimus sint
-              doloremque, aliquam dolorum blanditiis cupiditate?
-            </div>
+            <blockquote cite="https://blog.mystart.com/8-amazing-facts-about-mountains/">
+              <div className="title-l">
+                The mere sight of them can take your breath away.
+              </div>
+              <div className="text-l">
+                What’s more special is the way a mountain can make you feel when
+                you climb it and make it to the top. You feel mighty and
+                powerful. But how much do we really know about these gigantic
+                land forms other than they are made from rock? Not much? Well,
+                in this article, we’ll discuss 8 amazing facts about mountains
+                to improve your knowledge of these mighty structures.
+              </div>
+            </blockquote>
           </div>
           <div className="right-c">
             <BoxOne />

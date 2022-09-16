@@ -5,12 +5,13 @@ function SlideThreePage() {
         <div className="left-box"></div>
         <div className="right-box">
           <div className="content-box">
-            <div className="title-th">Lorem ipsum</div>
+            <div className="title-th">World’s tallest mountain</div>
             <div className="text-th">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptates ipsam quia consectetur, porro, reprehenderit sequi
-              illo, omnis et a eligendi est nesciunt minus doloremque delectus
-              quos inventore possimus libero ad.
+              Mt. Everest, at 8,850 meters (29,035 feet) above sea level,
+              undeniably claims the point of highest altitude in the world. The
+              title of “tallest mountain in the word”, however, as measured from
+              the base to its peak, belongs to Mauna Kea which has an altitude
+              of only 4,205 meters (13,796 feet) above sea level.
             </div>
           </div>
         </div>

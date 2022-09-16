@@ -9,10 +9,7 @@ function BoxThree() {
     <>
       <div className="vs">
         <div className="box-3-r">
-          <img src="src\assets\img\2626163.jpg" alt="" />
-          <div className="some-text">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit
-          </div>
+          <div className="some-text">Mountains Exist Under the Sea as Well</div>
         </div>
       </div>
     </>
