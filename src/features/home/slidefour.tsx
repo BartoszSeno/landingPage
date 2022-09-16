@@ -11,7 +11,7 @@ function SlideFour({ AddClassFour }) {
           <div className="slide-page-img">
             <img src="src\assets\img\m4.png" alt="" />
           </div>
-          <div className="slide-page-title">Sabrina Four</div>
+          <div className="slide-page-title">greatest mountain</div>
         </div>
       </div>
     </>

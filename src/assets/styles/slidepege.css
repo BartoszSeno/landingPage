@@ -179,12 +179,15 @@
 
 .top-title {
   font-size: 10vh;
+  width: 170%;
+  line-height: 8vh;
 }
 
 .top-text {
   font-size: 4vh;
   line-height: 4vh;
   margin-top: 5vh;
+  width: 170%;
 }
 
 .title-o {
@@ -197,4 +200,9 @@
   margin-top: 4vh;
   font-size: 4vh;
   line-height: 4vh;
+}
+
+.text-count {
+  width: 150%;
+  text-align: center;
 }

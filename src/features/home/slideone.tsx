@@ -12,7 +12,7 @@ function SlideOne({ AddClass }) {
           <div className="slide-page-img one">
             <img src="src/assets/img/m1.png" alt="" />
           </div>
-          <div className="slide-page-title">Sabrina</div>
+          <div className="slide-page-title">Mountain Count</div>
         </div>
       </div>
     </>

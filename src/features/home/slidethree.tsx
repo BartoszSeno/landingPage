@@ -11,7 +11,7 @@ function SlideThree({ AddClassThree }) {
           <div className="slide-page-img three">
             <img src="src/assets/img/m3.png" alt="" />
           </div>
-          <div className="slide-page-title">Sabrina Three</div>
+          <div className="slide-page-title">highest mountain</div>
         </div>
       </div>
     </>

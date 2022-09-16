@@ -11,7 +11,7 @@ function SlideTwo({ AddClassTwo }) {
           <div className="slide-page-img two">
             <img src="src/assets/img/m2.png" alt="" />
           </div>
-          <div className="slide-page-title">Sabrina Two</div>
+          <div className="slide-page-title">Curiosities</div>
         </div>
       </div>
     </>
