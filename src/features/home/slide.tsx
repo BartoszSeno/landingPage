@@ -9,7 +9,6 @@ import "../../assets/styles/slidepege.css";
 function SlideHome({ AddClass, AddClassTwo, AddClassThree, AddClassFour }) {
   return (
     <>
-      <div className="episodes">Episodes</div>
       <DelayedLink to="/One" label={<SlideOne AddClass={AddClass} />} />
       <DelayedLink to="/Two" label={<SlideTwo AddClassTwo={AddClassTwo} />} />
       <DelayedLink

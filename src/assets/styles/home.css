@@ -72,13 +72,6 @@ button:hover {
   background-color: rgb(169, 169, 169);
 }
 
-.episodes {
-  height: 75%;
-  width: 90%;
-  font-size: 5vh;
-  position: absolute;
-  z-index: -1;
-}
 .slide-container {
   position: absolute;
   display: flex;

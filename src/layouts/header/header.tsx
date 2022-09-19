@@ -1,10 +1,9 @@
 import "../../assets/styles/header.css";
 import "../../assets/styles/animation.css";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import LogoNav from "../../features/nav/logo";
 import HomeNav from "../../features/nav/home";
-import AboutNav from "../../features/nav/about";
-import ContactNav from "../../features/nav/contact";
+import SlideNav from "../../features/nav/slide";
 
 function Header() {
   return (
@@ -16,11 +15,8 @@ function Header() {
         <NavLink to="/" activeClassName="active">
           <HomeNav />
         </NavLink>
-        <NavLink to="/About" activeClassName="active">
-          <AboutNav />
-        </NavLink>
-        <NavLink to="/Contact" activeClassName="active">
-          <ContactNav />
+        <NavLink to="/One" activeClassName="active">
+          <SlideNav />
         </NavLink>
       </div>
     </nav>
