@@ -42,6 +42,7 @@ function Home() {
 
   return (
     <>
+      <div className="checksize"></div>
       <main
         className={`home-container ${addC ? "slide-one-zoom" : ""} ${
           addCT ? "slide-two-zoom" : ""

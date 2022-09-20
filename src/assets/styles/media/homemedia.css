@@ -1,0 +1,64 @@
+.checksize {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  z-index: 10000;
+}
+/* 110% */
+
+@media only screen and (max-width: 1919px) {
+  .title-container {
+    margin-top: 100px;
+  }
+  .slide-container {
+    margin-top: 180px;
+    margin-left: -50px;
+  }
+}
+
+/* 125% */
+
+@media only screen and (max-width: 1745px) {
+  .title-main {
+    margin-top: -20px;
+  }
+  .slide-page-img img {
+    width: 300px;
+  }
+  .slide-page {
+    margin-top: 0px;
+    width: 85%;
+  }
+  .slide-container {
+    margin-top: 180px;
+    margin-left: 50px;
+  }
+
+  .slide-container a {
+    width: 22%;
+  }
+}
+
+/* 150% */
+
+@media only screen and (max-width: 1535px) {
+  .checksize {
+    background-color: aqua;
+  }
+}
+
+/* 175% */
+
+@media only screen and (max-width: 1279px) {
+  .checksize {
+    background-color: yellow;
+  }
+}
+
+/* 200% */
+
+@media only screen and (max-width: 1097px) {
+  .checksize {
+    background-color: crimson;
+  }
+}
