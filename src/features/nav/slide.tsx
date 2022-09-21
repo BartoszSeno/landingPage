@@ -3,7 +3,7 @@ function SldieNav() {
     const about = document.querySelector(".slide") as HTMLElement;
 
     about.style.display = "block";
-  }, 600);
+  }, 650);
   return (
     <>
       <div className="slide">SLIDE</div>

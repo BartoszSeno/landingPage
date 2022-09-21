@@ -1,7 +1,6 @@
 .logo,
 .home,
-.about,
-.contact {
+.about {
   display: none;
   animation: shownav 1s;
   animation-iteration-count: 1;
@@ -14,6 +13,16 @@
   100% {
     opacity: 1;
   }
+}
+
+.frame {
+  animation: shownav 5s;
+  animation-iteration-count: 1;
+}
+
+.burger-nav {
+  animation: shownav 0.5s;
+  animation-iteration-count: 1;
 }
 
 .home-container {

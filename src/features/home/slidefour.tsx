@@ -8,7 +8,7 @@ function SlideFour({ AddClassFour }) {
     <>
       <div className="slide-page" onClick={AddClassFour}>
         <div className="sf">
-          <div className="slide-page-img">
+          <div className="slide-page-img four">
             <img src="src\assets\img\m4.png" alt="" />
           </div>
           <div className="slide-page-title">greatest mountain</div>

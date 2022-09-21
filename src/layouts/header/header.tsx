@@ -4,6 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 import LogoNav from "../../features/nav/logo";
 import HomeNav from "../../features/nav/home";
 import SlideNav from "../../features/nav/slide";
+import BurgerNav from "../../features/nav/burger/burger";
 
 function Header() {
   return (
@@ -19,6 +20,7 @@ function Header() {
           <SlideNav />
         </NavLink>
       </div>
+      <BurgerNav />
     </nav>
   );
 }

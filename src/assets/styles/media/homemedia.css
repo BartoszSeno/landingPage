@@ -42,23 +42,139 @@
 /* 150% */
 
 @media only screen and (max-width: 1535px) {
-  .checksize {
-    background-color: aqua;
+  .title-main {
+    margin-top: -40px;
+    margin-left: 50px;
+  }
+  .slide-page-img img {
+    width: 250px;
+  }
+  .slide-page {
+    margin-top: 0px;
+    width: 85%;
+  }
+  .slide-container {
+    margin-left: 15px;
+    margin-top: 100px;
+    height: 10%;
+  }
+
+  .slide-container a {
+    width: 17%;
+  }
+  .slide-page-title {
+    height: 1px;
+  }
+  .one,
+  .two,
+  .three,
+  .four {
+    height: 160px;
   }
 }
 
 /* 175% */
 
 @media only screen and (max-width: 1279px) {
-  .checksize {
-    background-color: yellow;
+  .title-main {
+    margin-top: -50px;
+    margin-left: 50px;
+  }
+  .slide-page-img img {
+    width: 210px;
+  }
+  .slide-page {
+    margin-top: -50px;
+    width: 85%;
+  }
+  .slide-container {
+    height: 10%;
+    margin-top: 120px;
+  }
+  .title-container {
+    margin-top: 70px;
+    height: 180px;
+  }
+  .slide-container a {
+    width: 17%;
+  }
+  .slide-page-title {
+    height: 1px;
+  }
+  .one,
+  .two,
+  .three,
+  .four {
+    height: 160px;
   }
 }
 
 /* 200% */
 
 @media only screen and (max-width: 1097px) {
-  .checksize {
-    background-color: crimson;
+  .title-main {
+    margin-top: -70px;
+    margin-left: 50px;
+  }
+  .slide-page-img img {
+    width: 300px;
+  }
+  .slide-page {
+    margin-top: -130px;
+    width: 85%;
+  }
+  .slide-container {
+    margin-left: 0px;
+    height: 540px;
+    flex-direction: row;
+    flex-flow: wrap;
+  }
+  .title-container {
+    margin-top: 50px;
+  }
+  .slide-container a {
+    width: 30%;
+  }
+  .slide-page-title {
+    height: 120px;
+    font-size: 8vh;
+  }
+  .one,
+  .two,
+  .three,
+  .four {
+    height: 140px;
+  }
+  body {
+    overflow: auto;
+    overflow-x: hidden;
+  }
+  .home-container {
+    height: 900px;
+  }
+  /* HEADER */
+
+  .home,
+  .slide {
+    display: none !important;
+  }
+
+  .frame {
+    display: block !important;
+  }
+
+  .Header {
+    width: 100%;
+  }
+
+  .logo {
+    position: absolute;
+    left: 45%;
   }
 }
+
+/*
+.frame {
+  display: block !important;
+}
+*/
