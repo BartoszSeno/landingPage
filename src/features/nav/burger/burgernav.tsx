@@ -8,7 +8,6 @@ function BurgerNavi({ burgers }) {
           <Link to="/">
             <div className="b-home">HOME</div>
           </Link>
-          <hr />
           <Link to="/One">
             <div className="b-slide">SLIDE</div>
           </Link>

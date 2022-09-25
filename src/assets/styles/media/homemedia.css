@@ -3,6 +3,7 @@
   height: 100px;
   width: 100%;
   z-index: 10000;
+  display: flex;
 }
 /* 110% */
 
@@ -161,6 +162,9 @@
 
   .frame {
     display: block !important;
+    scale: 0.4;
+    margin-top: -25px;
+    margin-left: 100px;
   }
 
   .Header {
@@ -172,9 +176,151 @@
     left: 45%;
   }
 }
+/* 250% */
 
+@media only screen and (max-width: 959px) {
+  .slide-container {
+    margin-top: 100px;
+    margin-left: -30px;
+  }
+  .burger-nav {
+    left: 50%;
+    width: 50%;
+  }
+  .title-container {
+    margin-top: 40px;
+    font-size: 20vh;
+    margin-left: -10px;
+  }
+  .title-main {
+    margin-left: 150px;
+    font-size: 25vh;
+    margin-top: -40px;
+  }
+}
+
+/* 300% */
+
+@media only screen and (max-width: 767px) {
+  .burger-nav {
+    left: 40%;
+    width: 60%;
+  }
+  .logo {
+    font-size: 13vh;
+    margin-top: -5px;
+  }
+  /**/
+  .title-container {
+    margin-top: 20px;
+    font-size: 20vh;
+    margin-left: -20px;
+  }
+  .title-main {
+    margin-left: 150px;
+    font-size: 25vh;
+  }
+  .slide-page-img img {
+    width: 280px;
+  }
+  .slide-page {
+    margin-top: -130px;
+  }
+  .slide-container {
+    margin-left: -60px;
+    width: 100%;
+    height: 60%;
+  }
+
+  .slide-page-title {
+    height: 80px;
+    font-size: 13vh;
+  }
+
+  .home-container {
+    height: 750px;
+  }
+}
 /*
-.frame {
-  display: block !important;
+.checksize {
+  background-color: aqua;
+  height: 1px;
+  display: flex;
 }
 */
+
+@media only screen and (max-width: 639px) {
+  .burger-nav {
+    left: 30%;
+    width: 70%;
+  }
+  .logo {
+    margin-top: -12px;
+  }
+  /**/
+
+  .title-main {
+    margin-left: 100px;
+    margin-top: -80px;
+  }
+  .slide-page-img img {
+    width: 350px;
+  }
+  .slide-page {
+    margin-top: -100px;
+  }
+  .slide-container {
+    margin-left: -90px;
+    width: 100%;
+    height: 1100px;
+  }
+
+  .slide-page-title {
+    height: 160px;
+    font-size: 19vh;
+  }
+  .slide-container a {
+    width: 40%;
+  }
+  .home-container {
+    height: 1428px;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+  .burger-nav {
+    left: 0%;
+    width: 100%;
+  }
+  .logo {
+    margin-top: -15px;
+  }
+  /**/
+  .title-container {
+    margin-left: -30px;
+  }
+
+  .title-main {
+    margin-left: 70px;
+    margin-top: -90px;
+    font-size: 30vh;
+  }
+  .slide-page-img img {
+    width: 330px;
+  }
+  .slide-page {
+    margin-top: -120px;
+  }
+  .slide-container {
+    margin-left: -105px;
+    height: 950px;
+  }
+
+  .slide-page-title {
+    height: 140px;
+  }
+
+  .home-container {
+    height: 1300px;
+  }
+}

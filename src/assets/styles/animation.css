@@ -21,8 +21,16 @@
 }
 
 .burger-nav {
-  animation: shownav 0.5s;
+  animation: burger 0.5s;
   animation-iteration-count: 1;
+}
+
+@keyframes burger {
+  0% {
+    margin-left: 300px;
+  }
+  100% {
+  }
 }
 
 .home-container {
