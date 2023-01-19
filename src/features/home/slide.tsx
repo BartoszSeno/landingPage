@@ -6,7 +6,17 @@ import DelayedLink from "../../hook/delay/delay";
 import "../../assets/styles/animation.css";
 import "../../assets/styles/slidepege.css";
 
-function SlideHome({ AddClass, AddClassTwo, AddClassThree, AddClassFour }) {
+function SlideHome({
+  AddClass,
+  AddClassTwo,
+  AddClassThree,
+  AddClassFour,
+}: {
+  AddClass: any;
+  AddClassTwo: any;
+  AddClassThree: any;
+  AddClassFour: any;
+}) {
   return (
     <>
       <DelayedLink to="/One" label={<SlideOne AddClass={AddClass} />} />

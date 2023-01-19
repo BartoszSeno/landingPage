@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function BurgerNavi({ burgers }) {
+function BurgerNavi({ burgers }: { burgers: any }) {
   return (
     <>
       <nav className="burger-nav" style={{ display: burgers ? "flex" : "" }}>

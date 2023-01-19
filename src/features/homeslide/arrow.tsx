@@ -1,4 +1,4 @@
-function Arrow({ SlideOneMovedToSlideTwo }) {
+function Arrow({ SlideOneMovedToSlideTwo }: { SlideOneMovedToSlideTwo: any }) {
   return (
     <>
       <div className="arrow-container">

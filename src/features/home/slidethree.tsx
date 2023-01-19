@@ -1,4 +1,4 @@
-function SlideThree({ AddClassThree }) {
+function SlideThree({ AddClassThree }: { AddClassThree: any }) {
   setTimeout(() => {
     const slide = document.querySelector(".sth") as HTMLElement;
 

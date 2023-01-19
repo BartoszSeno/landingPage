@@ -2,9 +2,9 @@
   height: 100px;
   width: 100px;
   border-radius: 20px;
-  margin-left: -120px;
-  display: none;
+  display: flex;
   z-index: 10000;
+  display: none;
 }
 
 .center {

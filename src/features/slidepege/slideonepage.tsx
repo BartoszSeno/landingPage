@@ -10,7 +10,7 @@ function SlideOnePage() {
   let uptoth: number = 10411;
 
   function updated() {
-    const count = document.querySelector(".count-o") as HTMLElement;
+    const count = document.querySelector(".count-o") as any;
     count.innerHTML = ++upto;
     if (upto === 77706) {
       clearInterval(counts);
@@ -18,7 +18,7 @@ function SlideOnePage() {
   }
 
   function updatedTwo() {
-    const countT = document.querySelector(".count-t") as HTMLElement;
+    const countT = document.querySelector(".count-t") as any;
 
     countT.innerHTML = ++uptot;
     if (uptot === 42541) {
@@ -26,7 +26,7 @@ function SlideOnePage() {
     }
   }
   function updatedThree() {
-    const countTH = document.querySelector(".count-th") as HTMLElement;
+    const countTH = document.querySelector(".count-th") as any;
 
     countTH.innerHTML = ++uptoth;
 

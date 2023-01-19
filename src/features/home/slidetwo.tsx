@@ -1,4 +1,4 @@
-function SlideTwo({ AddClassTwo }) {
+function SlideTwo({ AddClassTwo }: { AddClassTwo: any }) {
   setTimeout(() => {
     const slide = document.querySelector(".st") as HTMLElement;
 
