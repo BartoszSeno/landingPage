@@ -4,10 +4,10 @@ import { number } from "prop-types";
 function SlideOnePage() {
   let counts = setInterval(updated);
   let countst = setInterval(updatedTwo);
-  let countsth = setInterval(updatedThree);
+  let CountThree = setInterval(mustUpdateThree);
   let upto: number = 77506;
   let uptot: number = 42241;
-  let uptoth: number = 10411;
+  let updateThree: number = 10400;
 
   function updated() {
     const count = document.querySelector(".count-o") as any;
@@ -25,13 +25,13 @@ function SlideOnePage() {
       clearInterval(countst);
     }
   }
-  function updatedThree() {
-    const countTH = document.querySelector(".count-th") as any;
+  function mustUpdateThree() {
+    const countTH = document.querySelector(".count-three") as any;
 
-    countTH.innerHTML = ++uptoth;
+    countTH.innerHTML = ++updateThree;
 
-    if (uptoth === 10811) {
-      clearInterval(countsth);
+    if (updateThree >= 10811) {
+      clearInterval(CountThree);
     }
   }
 
@@ -75,7 +75,7 @@ function SlideOnePage() {
                 <div className="text-count">
                   <p>Switzerland</p>
                 </div>
-                <div className="count-th"></div>
+                <div className="count-three">3</div>
               </div>
             </div>
           </div>
