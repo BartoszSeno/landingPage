@@ -1,3 +1,5 @@
+import "../../assets/styles/media/slidefour.css";
+
 function SlideFourPage() {
   return (
     <>
