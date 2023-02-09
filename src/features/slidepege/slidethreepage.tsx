@@ -1,3 +1,5 @@
+import "../../assets/styles/media/slidethree.css";
+
 function SlideThreePage() {
   return (
     <>
