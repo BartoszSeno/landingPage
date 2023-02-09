@@ -1,0 +1,77 @@
+.testprocents {
+  position: absolute;
+  margin-top: 100px;
+  height: 10px;
+  width: 300px;
+  z-index: 10000;
+}
+
+/* 110% */
+
+@media only screen and (max-width: 1919px) {
+  .testprocents {
+    background-color: red;
+  }
+}
+
+/* 125% */
+
+@media only screen and (max-width: 1745px) {
+  .testprocents {
+    background-color: rebeccapurple;
+  }
+}
+
+/* 150% */
+
+@media only screen and (max-width: 1535px) {
+  .testprocents {
+    background-color: hotpink;
+  }
+}
+
+/* 175% */
+
+@media only screen and (max-width: 1279px) {
+  .testprocents {
+    background-color: slateblue;
+  }
+}
+
+/* 200% */
+
+@media only screen and (max-width: 1097px) {
+  .testprocents {
+    background-color: fuchsia;
+  }
+}
+/* 250% */
+
+@media only screen and (max-width: 959px) {
+  .testprocents {
+    background-color: goldenrod;
+  }
+}
+
+/* 300% */
+
+@media only screen and (max-width: 767px) {
+  .testprocents {
+    background-color: darkcyan;
+  }
+}
+/* 400% */
+
+@media only screen and (max-width: 639px) {
+  .testprocents {
+    background-color: tomato;
+  }
+}
+
+/* 500% */
+
+@media only screen and (max-width: 479px) {
+  .testprocents {
+    background-color: red;
+  }
+}

@@ -1,10 +1,12 @@
 import BoxOne from "./box/boxone";
 import BoxTwo from "./box/boxtwo";
 import BoxThree from "./box/boxthree";
+import "../../assets/styles/media/slidetwo.css";
 
 function SlideTwoPage() {
   return (
     <>
+      <div className="testprocents"></div>
       <div className="slide-page-container">
         <div className="bottom-c">
           <div className="left-c">
