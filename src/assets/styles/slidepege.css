@@ -66,6 +66,8 @@
 }
 
 .some-text {
+  overflow-wrap: break-word;
+
   text-align: center;
   font-size: 2vh;
   font-weight: 900;

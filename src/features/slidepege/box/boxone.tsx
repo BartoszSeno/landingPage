@@ -13,9 +13,7 @@ function BoxOne() {
             New Zealand Features the World’s Longest Mountain Name
             <br />
             <br />
-            "Taumatawhakatangihangakoau
-            <br />
-            auotamateapokaiwhenuakitanatahu"
+            "Taumatawhakatangihangakoauauotamateapokaiwhenuakitanatahu"
           </div>
         </div>
       </div>

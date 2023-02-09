@@ -12,7 +12,7 @@ function SlideTwoPage() {
           <div className="left-c">
             <blockquote cite="https://blog.mystart.com/8-amazing-facts-about-mountains/">
               <div className="title-l">
-                The mere sight of them can take your breath away.
+                The more sight of them can take your breath away.
               </div>
               <div className="text-l">
                 What’s more special is the way a mountain can make you feel when
