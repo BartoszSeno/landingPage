@@ -1,4 +1,3 @@
-import { text } from "node:stream/consumers";
 import { number } from "prop-types";
 import "../../assets/styles/media/slideone.css";
 
