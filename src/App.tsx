@@ -12,7 +12,7 @@ import SlideFour from "./features/homeslide/sliders/slidefour";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/landingPage">
         <Header />
         <Routes>
           <Route path="/" element={<Home />}></Route>

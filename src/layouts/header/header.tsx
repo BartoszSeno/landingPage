@@ -12,10 +12,10 @@ function Header() {
         <NavLink to="/">
           <LogoNav />
         </NavLink>
-        <NavLink to="/" activeClassName="active">
+        <NavLink to="/">
           <HomeNav />
         </NavLink>
-        <NavLink to="/One" activeClassName="active">
+        <NavLink to="/One">
           <SlideNav />
         </NavLink>
       </div>
